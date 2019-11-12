@@ -41,7 +41,7 @@ def self.find_or_create_by_name(title)
        self.create_by_name(title)
      end
 
-  
+
      def self.new_from_filename(filename)
        song_array = filename.split(" - ")
        song_array[1] = song_array[1].chomp(".mp3")
